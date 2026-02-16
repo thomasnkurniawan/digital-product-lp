@@ -57,7 +57,7 @@ export default function BenefitSection() {
       </motion.div>
 
       <motion.div
-        className="absolute bottom-32 right-32"
+        className="absolute hidden md:block right-32"
         animate={{ y: [0, -25, 0] }}
         transition={{
           duration: 5,

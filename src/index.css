@@ -55,12 +55,12 @@
   }
 
   /* Benefit: neutral soft */
-  .section-benefits {
+  .section-preview {
     @apply bg-slate-50 text-slate-900;
   }
 
   /* Preview: clean white */
-  .section-preview {
+  .section-benefits {
     @apply bg-white text-slate-900;
   }
 
@@ -111,6 +111,10 @@
 
   .btn {
     @apply inline-flex items-center justify-center rounded-2xl px-6 py-3 font-semibold transition;
+  }
+
+  .btn-sm {
+    @apply px-4 py-2 text-sm rounded-xl;
   }
 
   .btn-primary {

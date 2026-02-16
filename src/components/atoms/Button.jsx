@@ -3,6 +3,7 @@ import { cn } from "../../utils/cn";
 export default function Button({
   children,
   variant = "primary",
+  size = "md",
   className = "",
   ...props
 }) {
@@ -15,6 +16,7 @@ export default function Button({
         variant === "secondary" && "btn-secondary",
         variant === "dark" && "btn-dark",
         variant === "outline" && "btn-primary-outline",
+        size === "sm" && "btn-sm",
       )}
       {...props}
     >
