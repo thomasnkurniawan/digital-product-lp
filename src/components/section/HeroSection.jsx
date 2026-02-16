@@ -52,7 +52,7 @@ export default function HeroSection() {
           </p>
 
           <div className="flex gap-3 mb-8 justify-center">
-            <Button onClick={() => scrollToSection("harga")}>
+            <Button onClick={() => scrollToSection("product")}>
               Beli Sekarang
             </Button>
           </div>

@@ -7,7 +7,7 @@ export default function Footer() {
     <footer id="kontak" className="section-footer p-6">
       <Container className="flex flex-col justify-center items-center gap-2">
         <p>Made with <span className="text-red-500">❤️</span> by{' '}
-        <a href="https://thomaskurniawan.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://tomisedunia.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline">
           tomisedunia
         </a></p>
         <p>© {currentYear} tomisedunia. All rights reserved.</p>
